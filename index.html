@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <title>Portfolio </title>
+</head>
+<body>
+
+    <!--header nav-->
+    <header>
+        <nav class="navbar">
+            <div class="logo">MyPortfolio</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--about section-->
+  <section id="about" class="home-section">
+    <div class="container">
+      <div class="content">
+        <h1 class="h">Hello, I'm <span class="highlight">Nourine Chabbi </span>!</h1>
+        <p class="he">
+          I am a <strong>Web Developer</strong> with a passion for creating
+          visually appealing and user-friendly websites.I have a solid foundation in HTML, CSS, and JavaScript and enjoy transforming ideas into functional and aesthetic web experiences. I am continuously learning and exploring modern web technologies like responsive design, Bootstrap, and basic JavaScript frameworks. <br> My goal is to build intuitive, accessible, and high-performing websites while growing my expertise in full-stack development. I thrive on challenges and am eager to collaborate, learn, and contribute to exciting projects.
+        </p>
+        <a href="#projects" class="btn">Explore My Work</a>
+      </div>
+      <div class="image">
+        <img src="nourine.png" alt="Nourine" class="img">
+      </div>
+    </div>
+  </section>
+
+  <!--Skills section-->
+  <hr>
+  <section id="skills">
+    <h1 class="t">Skills</h1>
+        <div class="the-logo">
+            <div class="logoo">
+                <img src="html.jpg" alt="logo 1" class="number-logo">
+                <p class="logo-name">HTML 5</p>
+            </div>
+            <div class="logoo">
+                <img src="css.png" alt="logo 2" class="number-logo2">
+                <p class="logo-name">CSS 3</p>
+            </div>
+            <div class="logoo">
+                <img src="js.jpg" alt="logo 3" class="number-logo">
+                <p class="logo-name">JavaScript</p>
+            </div>
+            <div class="logoo">
+                <img src="react.png" alt="logo 4" class="number-logo">
+                <p class="logo-name">REACT</p>
+            </div>
+
+        </div>
+  </section>
+
+  <!--project section-->
+  <hr>
+  <section id="projects" class="projet">
+    <h2 class="section-title">My Projects</h2>
+    <div class="projects-container">
+        <div class="project-card">
+            <img src="1.png" alt="Project 1 Screenshot" class="project-image">
+            <div class="project-info">
+                <h3 class="title-project">Project Travel Agency</h3>
+                <p class="p">This project is a responsive website for a travel agency designed to inspire and assist users in planning their dream vacations. It features a homepage with visually appealing destination highlights, a services section outlining travel packages, and an easy-to-navigate booking interface. Built using HTML and CSS, the project includes dynamic elements like a slideshow for top destinations, interactive forms for booking inquiries, and responsive layouts for seamless viewing across devices. This project demonstrates my ability to create user-friendly designs and implement interactive web features.</p>
+                <a href="agency.html" class="btn">View Project</a>
+            </div>
+        </div>
+        <div class="project-card">
+            <img src="2.png" alt="Project 2 Screenshot" class="project-image">
+            <div class="project-info">
+                <h3 class="title-project">Project responsive Store</h3>
+                <p class="p">This project is a responsive website for a skincare store, designed to provide an engaging and seamless shopping experience for users. The homepage showcases a clean, visually appealing layout with featured products and skincare categories. The site includes a detailed product catalog, highlighting key ingredients, benefits, and customer reviews. Built using HTML and CSS, the project incorporates dynamic elements such as interactive product filters, a smooth shopping cart experience, and an easy-to-use checkout process. With responsive design, the website adapts perfectly to different devices, ensuring customers can browse and shop for their skincare essentials anytime, anywhere. </p>
+                <a href="store.html" class="btn">View Project</a>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <!--contact section-->
+  <hr>
+  <section class="contact-container">
+    <h2 class="contact-title">We'd Love to Hear From You</h2>
+    <form class="contact-form" action="#" method="POST">
+        <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        </div>
+        <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Write your message here" required></textarea>
+        </div>
+        <button type="submit" class="submit-btn">Send Message</button>
+    </form>
+</section>
+
+<!--footer-->
+<footer class="simple-footer">
+    <div class="footer-content">
+        <p>&copy; 2024 Nourine . All Rights Reserved.</p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/nourine.chabbi.1" target="_blank" class="social-icon">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="https://github.com/NourineChabbi" target="_blank" class="social-icon">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://twitter.com" target="_blank" class="social-icon">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://www.instagram.com/ur___nourine_/" target="_blank" class="social-icon">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
