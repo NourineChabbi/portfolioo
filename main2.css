@@ -41,11 +41,9 @@ body{
     transition: transform 0.3s ease-in-out;
     width: 350px;
     cursor: zoom-in;
-    transition: 1s ease;
 }
-
-.screenshot:hover {
-    transform: scale(2);
+.screenshot:hover{
+    transform:scale(1.05);
 }
 
 .vid{

@@ -232,7 +232,9 @@ body, ul, li, a {
     background-color: #e7b900;
     color: white;
 }
-
+.btn:active{
+    opacity: 0.5;
+}
 .title {
     text-align: center;
     background-color: #333;
