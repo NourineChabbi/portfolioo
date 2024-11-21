@@ -21,7 +21,7 @@ function verif(){
         return false;
     }
     e=document.getElementById("email").value ;
-    if(e.indexOf("@")==-1){
+    if(e.indexOf("@")==-1 || e.lastIndexOf(".com")==-1){
         alert("verify email");
         return false;
     }
